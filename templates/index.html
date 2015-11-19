@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Home</title>
-  <style>
-    html, body {
-      font-family: sans-serif;
-      background: #f0f0f0;
-      margin: 4em;
-    }
-
-    .main {
-      background: white;
-      border: solid 1px #c0c0c0;
-      border-radius: 8px;
-      padding: 2em;
-    }
-  </style>
-</head>
-<body>
-
+{% extends "base.html" %}
+{% block content %}
   <section class="main">
     <h1>New flask app</h1>
     <p>This is my first flask app on the web ! And on my local computer...</p>
   </section>
+{% endblock %}
 
-</body>
-</html>

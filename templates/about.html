@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>About</title>
-  <style>
-    html, body {
-      font-family: sans-serif;
-      background: #f0f0f0;
-      margin: 4em;
-    }
-
-    .main {
-      background: white;
-      border: solid 1px #c0c0c0;
-      border-radius: 8px;
-      padding: 2em;
-    }
-  </style>
-</head>
-<body>
-
+{% extends "base.html" %}
+{% block content %}
   <section class="main">
     <h1>About this page</h1>
     <p>About this website...</p>
+     <p>{{my_first_var}}</p>
   </section>
-
-</body>
-</html>
+{% endblock %}
