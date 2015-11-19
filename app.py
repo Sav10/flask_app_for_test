@@ -1,4 +1,6 @@
 from flask import Flask, render_template, request
+
+
 MyApp = Flask(__name__)
 
 var_01 = "this is my first var"
