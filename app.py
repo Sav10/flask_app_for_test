@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 MyApp = Flask(__name__)
 
-var_01 = "this is my first var"
+var_01 = "About Us"
 
 @MyApp.route("/")
 def hello():
