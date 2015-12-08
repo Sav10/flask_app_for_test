@@ -18,5 +18,11 @@ def about():
 def contact():
 	return render_template('contact.html', title = 'Contact')
 
+
+@MyApp.route("/mymap")
+def mymap():
+	return render_template('map_commune2.html', title = 'Mymap')
+
+
 if __name__ == "__main__":
 	MyApp.run(debug=True)
